@@ -20,7 +20,7 @@ ICON = "../data/icons/scalable/apps/com.system76.keyboardconfigurator.svg"
 # Appimage packaging
 PKG = "keyboard-configurator"
 APPID = "com.system76.keyboardconfigurator"
-ARCH = "x86_64"
+ARCH = "arm64"
 
 # Remove previous build
 for i in glob.glob(f"{PKG}*.AppImage"):
